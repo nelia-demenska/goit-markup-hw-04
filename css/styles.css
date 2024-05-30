@@ -312,8 +312,11 @@ margin-bottom: 8px;
 .card-links .link-member:hover{
     background-color: #404bbf;
 }
-..card-links .link-member:focus {
+.card-links .link-member:focus {
     background-color: #404bbf;
+}
+.link-member {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .portfolio-section {
 padding: 120px 0 120px 0;
@@ -371,7 +374,7 @@ color: #434455;
     top: 0;
     left: 0;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -422,6 +425,9 @@ max-width: 264px
     display: flex;
     align-items: baseline;
 }
+.footer-main {
+    margin-right: 120px;
+}
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -454,6 +460,9 @@ display: flex;
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+}
+.link-footer {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .footer-icon {
     fill: #f4f4fd;
